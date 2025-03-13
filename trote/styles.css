@@ -3,34 +3,70 @@ body {
     margin: 0;
     padding: 0;
     background-color: #F4F4F4;
-    text-align: center;
 }
 
-header{
+header {
     background-color: #28A745;
     color: white;
     padding: 15px 0;
-    font-size: 24px;
+    font-size: 36px;
+    text-align: center;
 }
 
-nav{
+nav {
     background-color: #007BFF;
     padding: 30px;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
+    text-align: center;
 }
 
 #links-menu {
     display: flex;
     gap: 25px;
+    justify-content: center;
 }
 
 nav a {
     color: white;
-    text-decoration:  none;
+    text-decoration: none;
     padding: 1px 15px;
-    font-size:  18px;
+    font-size: 24px;
     background-color: #005663;
     border-radius: 5px;
 }
+
+nav a:hover {
+    background-color: #003d82;
+}
+
+img {
+    width: 80px;
+    height: auto;
+    margin-right: 20px;
+    border-radius: 10px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    position: absolute;
+    top: 80px;
+    right: 20px;
+}
+
+/* Estilo para a container */
+.container {
+    margin: 0 auto; /* Centraliza a container no corpo */
+    max-width: 900px; /* Limita a largura da container */
+    padding: 20px;
+}
+
+/* Centralizando os parágrafos dentro da container */
+.container p {
+    text-align: center; /* Centraliza o texto dos parágrafos */
+    font-size: 20px; /* Ajuste no tamanho da fonte */
+    line-height: 1.6; /* Ajuste na altura da linha para melhor legibilidade */
+    color: #333; /* Cor do texto */
+    margin: 15px 0; /* Espaçamento entre os parágrafos */
+}
+ 
